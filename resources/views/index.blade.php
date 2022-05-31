@@ -31,7 +31,7 @@
             <div class="col-12 col-md-4 col-sm-12 col-xs-12" data-aos="zoom-in-up" data-aos-duration="1000"
                 data-aos-delay="100" data-aos-easing="ease-in-out">
                 <div class="m-auto">
-                    <img class="img-fluid" src="{{ asset('images/contact-us-bro.svg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('images/Contact-us-bro.svg') }}" alt="">
                     <h3 class="text-center">Get VCF Daily</h3>
                     <p class="text-center">Download your personal VCF files (All Users have their own VCF file)</p>
                 </div>
@@ -39,7 +39,7 @@
             <div class="col-12 col-md-4 col-sm-12 col-xs-12" data-aos="zoom-in-up" data-aos-duration="1000"
                 data-aos-delay="200">
                 <div class="m-auto">
-                    <img class="img-fluid" src="{{ asset('images/cloud-sync-bro.svg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('images/Cloud-sync-bro.svg') }}" alt="">
                     <h3 class="text-center">Share Link</h3>
                     <p class="text-center">Click the whatsapp share button in order to share our link</p>
                 </div>
