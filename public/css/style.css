@@ -1,0 +1,352 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap);
+:root {
+    --primary-color-dark: #087C4F;
+    --primary-color-light: #53A767;
+    --primary-color-lighter: #85D598;
+    --black-color: black;
+    --white-color: white;
+    --transparent: #ffffff00;
+    --light-green: #88DBA9;
+}
+
+* {
+    font-family: Raleway;
+}
+
+nav .nav-item {
+    margin-right: 10px;
+}
+
+nav .nav-item a {
+    color: var(--white-color) !important;
+    font-weight: 500;
+}
+
+.custom-navbar {
+    background-color: var(--transparent) !important;
+    box-shadow: none !important;
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+}
+
+.top-intro-div {
+    height: 600px;
+    width: 100%;
+    margin: 0px;
+    background-color: var(--primary-color-dark);
+    background-image: url(../images/Animated-Shape.svg);
+}
+
+.heading-desc h1 {
+    color: var(--white-color);
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.heading-desc p {
+    color: var(--white-color);
+    margin-bottom: 50px;
+}
+
+.heading-desc .btn {
+    width: 100%;
+    border-radius: 40px;
+    background-color: #41A470;
+    border: none;
+}
+
+.slide-show-wv {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.slide-show-wv img {
+    width: 500px;
+    margin: auto;
+}
+
+.slide-show-wv li {
+    color: var(--black-color);
+}
+
+.wv-section-3 .col {
+    margin: auto;
+    height: 400px;
+}
+
+.wv-section-3 img {
+    width: 300px;
+    align-self: center;
+}
+
+.wv-section-3 div .m-auto {
+    display: block;
+    height: 400px;
+    text-align: center;
+}
+
+.wv-section-3 div .m-auto h3 {
+    font-weight: bold;
+}
+
+.wv-section-3-title {
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.carousel-control-prev span,
+.carousel-control-next span {
+    background-color: black;
+    border-radius: 50%;
+}
+
+.wv-section-4 {
+    height: 500px;
+    width: 100%;
+    background-color: var(--primary-color-dark);
+    margin: 0px;
+    margin: auto;
+}
+
+.wv-section-4 .col {
+    height: 500px;
+    background-color: red;
+    border-left: 2px solid blue;
+}
+
+.wv-section-4 .col div {
+    background-color: brown;
+}
+
+.wv-section-4 .col img {
+    width: 400px;
+}
+
+.background-primary {
+    background-image: none;
+    background-color: var(--primary-color-dark);
+}
+
+.background-primary h3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.background-primary ul {
+    color: var(--white-color);
+    list-style: none;
+    font-size: 15px;
+}
+
+.background-primary img {
+    width: 450px;
+}
+
+.background-primary li img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.background-primary p {
+    margin: 0px;
+}
+
+.background-primary .btn {
+    border-radius: 0px;
+    margin-top: 30px;
+}
+
+.testimony {
+    height: 500px;
+    width: 100%;
+}
+
+.testimony div:nth-child(1) .testimony div:nth-child(3) {
+    width: 70%;
+}
+
+.testimony .col {
+    height: 500px;
+    margin-right: 5px;
+}
+
+.testimony img {
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.432);
+    filter: brightness(0.8);
+    transition: all 0.5s;
+}
+
+.testimony div:nth-child(2) img {
+    filter: brightness(1) !important;
+}
+
+.img-zoom-out {
+    transform: scale(0.9);
+}
+
+.testimony img:hover {
+    transform: scale(1.1);
+    filter: brightness(1);
+}
+
+.reviews {
+    width: 300px;
+    background-color: var(--primary-color-dark);
+    border-radius: 30px;
+    position: relative;
+    padding: 30px;
+}
+
+.rev-img {
+    width: 100px !important;
+    position: absolute;
+    bottom: -50px;
+    left: 100px;
+    border: 4px solid var(--primary-color-dark);
+    border-radius: 50%;
+}
+
+.reviews p {
+    color: #ECB72F;
+}
+
+.reviews .rating {
+    color: var(--white-color);
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.reviews .title {
+    color: #88DBA9;
+    font-size: 22px;
+}
+
+.newsletter {
+    background-color: #1A6246;
+    padding: 50px;
+}
+
+form .input {
+    margin-bottom: 50px;
+    border: 0px;
+    border-radius: 0px;
+    background-color: #1A6246;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+form label {
+    color: white;
+}
+
+form .input:active,
+form .input:focus,
+form .input:hover {
+    outline: none;
+    appearance: none;
+    box-shadow: none;
+    background-color: #1A6246;
+    color: white;
+    border-color: var(--light-green);
+}
+
+.newsletter h2 {
+    color: white;
+    text-transform: none;
+    margin-top: 0px;
+}
+
+.newsletter p {
+    color: white;
+}
+
+input[type=submit] {
+    outline: none;
+    appearance: none;
+    box-shadow: none;
+    width: 100%;
+    border: none;
+    background-color: #097C50;
+    border-radius: 0px;
+}
+
+input[type=submit]:active,
+input[type=submit]:focus,
+input[type=submit]:hover {
+    outline: none !important;
+    appearance: none !important;
+    box-shadow: none !important;
+    background-color: #097C50;
+}
+
+.background-primary-2 {
+    background: none;
+    background-color: rgb(8, 8, 8);
+    padding: 50px;
+    padding-bottom: 20px;
+}
+
+.background-primary-2 div h3 {
+    color: white;
+}
+
+.background-primary-2 img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.background-primary-2 ul {
+    list-style: none;
+    list-style-position: outside;
+}
+
+.background-primary-2 ul li a {
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+    font-size: 16px;
+}
+
+.background-primary-2 ul li i {
+    color: rgb(182, 182, 182);
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.background-primary-2 ul li {
+    margin-bottom: 10px;
+}
+
+.newsletter-div {
+    background-color: #d4ffe5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .custom-navbar {
+        position: relative;
+        background-color: var(--primary-color-dark) !important;
+    }
+    .top-intro-div {
+        height: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .testi {
+        display: none;
+    }
+    .wv-section-3 div {
+        margin-bottom: 70px;
+    }
+    .wv-section-3 div:last-child {
+        margin-bottom: 0px;
+    }
+}
