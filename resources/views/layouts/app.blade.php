@@ -12,8 +12,8 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link href="{{ route('index') }}/css/app.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ route('index') }}/css/style.css">
+    <link href="https://wassapviews-test.herokuapp.com/css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://wassapviews-test.herokuapp.com/css/style.css">
 </head>
 
 <body>
